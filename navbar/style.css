@@ -1,0 +1,53 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    background: crimson;
+    font-family: calibri;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.navdiv{
+display: flex;
+align-items: center;
+justify-content:space-between;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color:white;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+button{
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding:10px;
+    width: 90px;
+}
+button a{
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+}
+button a:hover{
+    color : rgb(235, 143, 6);
+}
+li a:hover{
+    color : rgb(37, 8, 8);
+}
+.navbar:hover{
+    background-color : rgb(211, 23, 32);
+}
+.logo a:hover{
+    color : rgb(27, 15, 16);
+}          

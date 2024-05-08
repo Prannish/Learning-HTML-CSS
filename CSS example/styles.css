@@ -1,0 +1,18 @@
+/* External CSS */
+.external-text {
+    color: red;
+}
+
+/* CSS Selectors */
+.selector-text {
+    font-weight: bold;
+    color: #ec0202;
+}
+
+#id-selector-text {
+    font-style: italic;
+    color:blue;
+}
+
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example</title>
+    <!-- This is internal css -->
+    <style>
+        .internalcss{
+            color:red;
+        }
+        h3{
+            color:aqua;/*Type Selector*/
+        }
+        *{
+           maigin: 50px;
+           padding:50px; /* Universal Selector*/
+        }
+    </style>
+    <!-- Linking External CSS File -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body bgcolor="black">
+
+    <!-- Inline CSS Example -->
+    <h1 style="color: blue;">Inline CSS Example</h1>
+
+    <!-- Internal CSS Example -->
+    <h1 class="internalcss">Internal CSS Example</h1>
+
+    <!-- External CSS Example -->
+    <h1 class="external-text">External CSS Example</h1>
+
+    <!-- CSS Selectors Example -->
+    <h3>CSS Selectors Example</h3><!--Type Selector-->
+    <p class="selector-text">This is a paragraph with a class selector.</p>
+    <p id="id-selector-text">This is a paragraph with an ID selector.</p>
+    
+
+</body>
+</html>

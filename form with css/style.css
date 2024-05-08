@@ -1,0 +1,23 @@
+.container{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #e2a1a1;
+    font-family: 'Arial', sans-serif;
+}
+.red{
+    color:red;
+    font-family: 'Arial', sans-serif;
+}
+
+.blue{
+    color:blue;
+    font-family: 'Arial', sans-serif;
+}
+.green{
+    color:teal;
+    font-family: 'Arial', sans-serif;
+}
+

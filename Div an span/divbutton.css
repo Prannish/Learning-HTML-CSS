@@ -1,0 +1,21 @@
+#container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background-color: rgb(62, 195, 228);
+}
+
+#container div{
+    height: 370px;
+    width:335px;
+    background: rgb(114, 235, 103);
+    margin: 60px;
+    text-align: center;
+}
+.spancolor{
+    background-color: rgb(248, 41, 41);
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
