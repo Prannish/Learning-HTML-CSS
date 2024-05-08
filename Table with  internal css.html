@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with internal css</title>
+    <style>
+         tr,td{
+        border:1px solid black;
+         border-radius:10px;
+        .red
+        {
+            color:red;
+        }
+        .green
+        {
+            color:green;
+        }
+        .blue
+        {
+            color:blue;
+        }
+        .bluevoilet
+        {
+            color:blueviolet;
+        }
+        .orange
+        {
+            color:orange;
+        }
+        .brown
+        {
+            color:brown;
+        }
+        .vertical-text
+        {
+            writing-mode: vertical-rl;
+            color:rgb(230, 28, 129);
+        }
+    </style>
+</head>
+<body>
+
+    <table style="width:400px">
+        <caption>BCA Third Semester</caption>
+        <tr>
+            <td class="red">Sn</td>
+            <td class="red">Name</td>
+            <td class="red">Contact Number</td>
+            <td class="red">Address</td>
+            <td class="red">Remark</td>
+        </tr>
+        <tr>
+            <td class="green">1</td>
+            <td class="green">Utshav Manandhar</td>
+            <td class="green">9876354678</td>
+            <td class="green">Ramkot</td>
+            <td class="vertical-text" rowspan="5" align="center"><b>BCA Students</b></td>
+        </tr>
+        <tr>
+            <td class="blue">2</td>
+            <td class="blue">Utshab Nepal</td>
+            <td class="blue">9864785908</td>
+            <td class="blue">Pokhara</td>
+        </tr>
+        <tr>
+           <td class="bluevoilet">3</td>
+            <td class="bluevoilet">Pranish Ranjit</td>
+            <td class="bluevoilet">9861599807</td>
+            <td class="bluevoilet">Jyabahal</td>
+        </tr>
+        <tr>
+            <td class="orange">4</td>
+            <td class="orange">Niroj Tamang</td> 
+            <td class="orange">9867537838</td>
+            <td class="orange">Kabre</td>
+        </tr>
+        <td class="brown">5</td>
+        <td class="brown">Shrawan Limbu</td>
+        <td class="brown">9868799807</td>
+        <td class="brown">Thankot</td>
+    </tr>
+    </table>
+</body>
+</html>

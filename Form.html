@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form  method="post">
+      <caption>Fill out this form</caption><br><br>
+        <label>Name:</label>
+        <input type="text" placeholder="Input your full name" required><br><br>
+    
+        <label>Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@example.com" required><br><br>
+    
+        <label>Password:</label>
+        <input type="password" id="password" minlength="8" placeholder="Choose a strong password" required><br><br>
+    
+        <label>Age:</label>
+        <input type="number" id="age" min="18" max="99"><br><br>
+    
+        <label>Gender:</label>
+        <input type="radio" name="gender" required>
+          <label>Male</label>
+          <input type="radio" name="gender" required>
+          <label>Female</label>
+          <input type="radio" name="gender" required>
+          <label>Other</label>
+        <br><br>
+
+        <label>Date of birth</label>
+        <input type="date" required><br><br>
+  
+        <label>Profile Picture:</label>
+        <input type="file" accept="image/*"><br><br>
+
+        <label>Country</label>
+        <select required>
+          <option>Nepal</option>
+          <option>India</option>
+          <option>Chaina</option>
+          <option>Japan</option>
+          <option>Australia</option>
+          <option>USA</option>
+        </select><br><br>
+    
+        <label>Short description about something:</label><br>
+        <textarea rows="4" cols="40" maxlength="200"></textarea><br><br>
+    
+        <input type="checkbox" id="terms" name="terms" required>
+        <label>I accept the terms and conditions.</label><br><br>
+    
+        <input type="submit">
+        <input type="reset">
+   </form>
+
+</body>
+</html>
